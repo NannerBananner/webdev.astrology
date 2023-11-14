@@ -1,0 +1,96 @@
+* {
+	box-sizing: border-box;
+}
+/*styles for the body*/
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	margin: 0;
+	background-image: url("https://thumbs.dreamstime.com/b/seamless-pattern-zodiac-signs-constellations-abstract-lorem-ipsum-handwritten-text-sun-moon-stars-hand-drawn-vector-264790267.jpg");
+}
+/*styles for the header*/
+header {
+	background-image: url("https://ucarecdn.com/04ef3edd-6733-4a45-86b9-1b975174a698/");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	margin: 1%;
+	border: solid beige 8px;
+}
+
+h2 {
+	font-family: "Montserrat Subrayada";
+	font-size: 5em;
+	text-shadow: 3px 3px 3px grey;
+	color: beige;
+	text-align: center;
+}
+
+h3 {
+	font-family: "Oooh Baby";
+	font-size: 2.5em;
+	text-shadow: 3px 3px 3px grey;
+	color: white;
+	text-align: center;
+}
+/*styles for the main*/
+#main {
+	display: flex;
+	flex: 1;
+	padding: 1em;
+}
+/*article styles*/
+#main > article {
+	flex: 1;
+	background: beige;
+	padding: 10%;
+	margin: 1%;
+	border: black dotted 5px;
+}
+/*nav styles*/
+#main > nav {
+	flex: 0.2;
+	height: auto;
+	max-height: 45vh;
+	background: black;
+	order: -1;
+	border: solid beige 5px;
+}
+
+a:link {
+	list-style-type: none;
+	color: white;
+	text-shadow: 4px 2px 2px beige;
+	margin: 2px;
+	font-family: "Oooh Baby";
+	font-size: 35px;
+}
+
+a:hover {
+	text-decoration: strik;
+	text-decoration-color: whitesmoke;
+	text-shadow: 3px 3px 3px gold;
+	font-family: "Montserrat Subrayada";
+	font-size: 1.5em;
+}
+/*aside styles*/
+#main > aside {
+	flex: 0.2;
+	background: black;
+	color: beige;
+	height: 50vh;
+	text-shadow: 2px 2px 2px grey;
+	font-family: "Oooh Baby";
+	font-size: 20px;
+	padding: 3px;
+}
+/*footer styles*/
+footer {
+	height: 10vh;
+	background: grey;
+	padding: 2em;
+	font-family: "Montserrat Subrayada";
+	color: black;
+	text-shadow: 2px 2px 2px white;
+}
